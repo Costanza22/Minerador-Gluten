@@ -21,6 +21,7 @@ Extração de termos-chave: O sistema extrai os termos-chave mais relevantes dos
 Análise de sentimento: O sistema determina se o sentimento geral dos textos é positivo, negativo ou neutro em relação ao tema.
 Nuvens de palavras e redes de palavras: O sistema gera visualizações para as palavras mais frequentes e suas relações.
 Personalização: O sistema pode ser personalizado para incluir diferentes critérios de busca e análises.
+
 **Requisitos:**
 
 Python 3.10 ou superior: A linguagem de programação base para o sistema.
@@ -34,7 +35,8 @@ nltk ou spaCy: Para processamento de linguagem natural dos textos em inglês.
 matplotlib ou seaborn: Para visualização de dados.
 Conta no ScienceDirect: Crie uma conta no ScienceDirect para ter acesso à API e coletar dados.
 Ambiente de Desenvolvimento: Um editor de código como PyCharm ou Visual Studio Code e uma ferramenta de análise de dados como Jupyter Notebook.
-Como Usar:
+
+**Como Usar:**
 
 Clone o Repositório: Clone este repositório em seu computador local.
 
