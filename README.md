@@ -1,38 +1,45 @@
-Tema Pré-TCC:
-Sistema de Identificação precisa de Alimentos Sem Glúten!
+Mineração de Textos Científicos do ScienceDirect em Python: Um Guia Detalhado
 
-Desenvolvimento de um Minerador de Textos Científicos de Mecanismos de Busca 
+**Tema TCC: Sistema de Detecção de Contaminação em Alimentos sem Glúten utilizando Inteligência Artificial**
 
-1. Definindo o Escopo e os Objetivos:
+Todos os artigos são voltados ao Portifólio!
 
-Problema: A alta taxa de falta de confiança em relação se tem ou não contaminação cruzada. Infelizmente mesmo os alimentos rotulados como sem glúten podem estar parcialmente contaminados
-Objetivo: Criar uma ia que identifique se existe essa contaminação, um sistema mais preciso de reconhecimento de alimentos livres de contaminação, sendo assim auxiliando a saúde de celíacos?
-Funcionalidades: Reconhecimento de imagens, leitura de rótulos já identificados como sem glúten, API FOOD DATA)
-Público-alvo: Celíacos. Quem pode usar também o sistema? Grandes redes de supermercado para que possam distribuir de forma mais segura esses alimentos.
+**Objetivo**
 
-Doença celíaca: A doença celíaca é uma doença autoimune que afeta o intestino delgado de pessoas geneticamente predispostas. Quando essas pessoas consomem glúten, uma proteína encontrada no trigo, centeio e cevada, o sistema imunológico reage de forma anormal, atacando as células que revestem o intestino delgado.
+Deixar os consumidores celíacos mais confiantes em relação a contaminação cruzada em alimentos classificados como "sem glúten"
+Em grandes redes de supermercados é comum que no setor sem glúten mesmo que pouco percebido tenha alimentos que originalmente é sem glúten mas durante o seu processsamento acabou sendo contaminado por exemplo "Sem Glúten, alérgicos contêm Cevada" isso gera uma certa falta de confiança por parte dos consumidores.
+A ideia de implementar uma ia que possa lidar com esse tipo de situação e achar uma solução utilizando ferramentas de aprendizagem de máquina.
 
-Sintomas:
+Este repositório contém um guia completo para desenvolver um sistema de mineração de textos científicos especificamente do ScienceDirect em Python. O sistema permite extrair dados de artigos do ScienceDirect, como títulos, resumos, autores, datas de publicação e palavras-chave, e realizar análises de processamento de linguagem natural (PLN) para extrair informações valiosas.
 
-Diarreia crônica: O sintoma mais comum, geralmente acompanhada por fezes volumosas, gordurosas e malcheirosas.
-Perda de peso: Dificuldade em ganhar ou manter peso, mesmo com uma dieta rica em calorias.
-Distensão abdominal: Inchaço e sensação de barriga cheia após as refeições.
-Fadiga: Cansaço extremo e falta de energia, mesmo após um bom descanso.
-Dor abdominal: Dor e desconforto na região da barriga, especialmente após as refeições.
-Outros sintomas: Náuseas, vômitos, constipação, anemia, osteoporose, dermatite herpetiforme (bolhas na pele) e problemas de fertilidade.
+**Funcionalidades:**
 
-Diagnóstico:
+Coletar dados do ScienceDirect: O sistema se concentra na coleta de dados do ScienceDirect, um portal de periódicos renomado com acesso a uma vasta coleção de artigos científicos.
+Processamento de linguagem natural: O sistema utiliza técnicas de PLN para pré-processar, tokenizar, lematizar e remover palavras de parada dos textos em inglês.
+Análise de frequência: O sistema identifica as palavras mais frequentes nos textos e apresenta uma visualização em nuvem de palavras.
+Extração de termos-chave: O sistema extrai os termos-chave mais relevantes dos textos para auxiliar na categorização por tema.
+Análise de sentimento: O sistema determina se o sentimento geral dos textos é positivo, negativo ou neutro em relação ao tema.
+Nuvens de palavras e redes de palavras: O sistema gera visualizações para as palavras mais frequentes e suas relações.
+Personalização: O sistema pode ser personalizado para incluir diferentes critérios de busca e análises.
+**Requisitos:**
 
-Exames de sangue: Testes para detectar anticorpos no sangue que são produzidos em resposta ao glúten.
-Biópsia intestinal: Coleta de uma pequena amostra do tecido do intestino delgado para análise em laboratório.
+Python 3.10 ou superior: A linguagem de programação base para o sistema.
 
-Tratamento:
+**Bibliotecas:**
 
-Dieta sem glúten rigorosa: A única forma eficaz de controlar a doença celíaca e evitar seus sintomas.
-Monitoramento regular: Consultas médicas e exames periódicos para acompanhar a evolução da doença e garantir a adesão à dieta.
-Suplementação: Em alguns casos, pode ser necessária a suplementação de vitaminas e minerais, como ferro, cálcio e vitamina D.
-Tecnologias: Python, Bibliotecas BeautifulSoup ou Scrapy para coleta de dados, pandas e numpy para manipulação de dados. nltk ou spaCy para processamento de linguagem natural. matplotlib ou seaborn para visualização de dados. etc.
+requests: Para realizar requisições HTTP ao ScienceDirect.
+BeautifulSoup: Para extrair dados das páginas HTML do ScienceDirect.
+pandas: Para manipular e analisar dados.
+nltk ou spaCy: Para processamento de linguagem natural dos textos em inglês.
+matplotlib ou seaborn: Para visualização de dados.
+Conta no ScienceDirect: Crie uma conta no ScienceDirect para ter acesso à API e coletar dados.
+Ambiente de Desenvolvimento: Um editor de código como PyCharm ou Visual Studio Code e uma ferramenta de análise de dados como Jupyter Notebook.
+Como Usar:
 
-3. Coletando e Preparando Dados:
-Imagens de alimentos: Imagens da API Food Data.
-Rótulos e embalagens: Coleta de imagens pré-processadas.
+Clone o Repositório: Clone este repositório em seu computador local.
+
+Instale as Bibliotecas: Execute o comando pip install -r requirements.txt no terminal para instalar as bibliotecas necessárias.
+Configure o ScienceDirect: No arquivo config.py, defina as credenciais de acesso à API do ScienceDirect (API Key e Token).
+Defina os Critérios de Busca: No arquivo config.py, defina as palavras-chave, data de publicação e outros critérios para a busca de artigos.
+Execute o Script: Execute o script main.py para coletar, processar e analisar os dados dos artigos científicos do ScienceDirect.
+Explore os Resultados: Os resultados das análises serão salvos em arquivos CSV e visualizações serão geradas automaticamente.
