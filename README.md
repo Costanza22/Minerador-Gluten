@@ -10,17 +10,24 @@ Deixar os consumidores celíacos mais confiantes em relação a contaminação c
 Em grandes redes de supermercados é comum que no setor sem glúten mesmo que pouco percebido tenha alimentos que originalmente é sem glúten mas durante o seu processsamento acabou sendo contaminado por exemplo "Sem Glúten, alérgicos contêm Cevada" isso gera uma certa falta de confiança por parte dos consumidores.
 A ideia de implementar uma ia que possa lidar com esse tipo de situação e achar uma solução utilizando ferramentas de aprendizagem de máquina.
 
-Este repositório contém um guia completo para desenvolver um sistema de mineração de textos científicos especificamente do ScienceDirect em Python. O sistema permite extrair dados de artigos do ScienceDirect, como títulos, resumos, autores, datas de publicação e palavras-chave, e realizar análises de processamento de linguagem natural (PLN) para extrair informações valiosas.
+Este repositório contém um guia completo para desenvolver um sistema de mineração de textos científicos em Python. O sistema permite extrair dados de artigos,como títulos, resumos, autores, datas de publicação e palavras-chave, e realizar análises de processamento de linguagem natural (PLN) para extrair informações valiosas.
 
 **Funcionalidades:**
 
 Coletar dados: O sistema se concentra na coleta de dados do ScienceDirect, um portal de periódicos renomado com acesso a uma vasta coleção de artigos científicos.
 Além disso, em adição portais como o Kaggle e Periodicos da própria universidade foram complementados.
+
 Processamento de linguagem natural: O sistema utiliza técnicas de PLN para pré-processar, tokenizar, lematizar e remover palavras de parada dos textos em inglês.
+
 Análise de frequência: O sistema identifica as palavras mais frequentes nos textos e apresenta uma visualização em nuvem de palavras.
+
 Extração de termos-chave: O sistema extrai os termos-chave mais relevantes dos textos para auxiliar na categorização por tema.
+
 Análise de sentimento: O sistema determina se o sentimento geral dos textos é positivo, negativo ou neutro em relação ao tema.
+
 Nuvens de palavras e redes de palavras: O sistema gera visualizações para as palavras mais frequentes e suas relações.
+
+
 Personalização: O sistema pode ser personalizado para incluir diferentes critérios de busca e análises.
 
 **Requisitos:**
