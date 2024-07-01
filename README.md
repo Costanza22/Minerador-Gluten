@@ -1,4 +1,4 @@
-Mineração de Textos Científicos do ScienceDirect em Python: Um Guia Detalhado
+Mineração de Textos Científicos em Python: Um Guia Detalhado
 
 **Tema TCC: Sistema de Detecção de Contaminação em Alimentos sem Glúten utilizando Inteligência Artificial**
 
@@ -14,7 +14,8 @@ Este repositório contém um guia completo para desenvolver um sistema de minera
 
 **Funcionalidades:**
 
-Coletar dados do ScienceDirect: O sistema se concentra na coleta de dados do ScienceDirect, um portal de periódicos renomado com acesso a uma vasta coleção de artigos científicos.
+Coletar dados: O sistema se concentra na coleta de dados do ScienceDirect, um portal de periódicos renomado com acesso a uma vasta coleção de artigos científicos.
+Além disso, em adição portais como o Kaggle e Periodicos da própria universidade foram complementados.
 Processamento de linguagem natural: O sistema utiliza técnicas de PLN para pré-processar, tokenizar, lematizar e remover palavras de parada dos textos em inglês.
 Análise de frequência: O sistema identifica as palavras mais frequentes nos textos e apresenta uma visualização em nuvem de palavras.
 Extração de termos-chave: O sistema extrai os termos-chave mais relevantes dos textos para auxiliar na categorização por tema.
