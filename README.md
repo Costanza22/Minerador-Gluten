@@ -1,6 +1,6 @@
 Mineração de Textos Científicos em Python: Um Guia Detalhado
 
-**Tema TCC: Sistema de Detecção de Contaminação em Alimentos sem Glúten utilizando Inteligência Artificial**
+**Tema Portifólio: Sistema de Detecção de Contaminação em Alimentos sem Glúten utilizando Inteligência Artificial**
 
 Todos os artigos são voltados ao Portifólio!
 
