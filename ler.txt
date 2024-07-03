@@ -4,7 +4,7 @@ Costanza Assef e Giovana Costa
 Utilizei chaves e titulos diferentes todos com relação ao Tema do Portifólio
 
 #sobre os artigos
-Minerador.py e Minerador1.py ambos são complementos do Portifólio
+Minerador.py e Minerador1.py ambos são complementos do meu Portifólio
 
 Artigo 1: Percepções dos consumidores em relação a produtos sem glúten: Uma revisão narrativa
 
