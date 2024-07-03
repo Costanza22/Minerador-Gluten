@@ -1,7 +1,7 @@
 #equipe
 Costanza Assef e Giovana Costa
 
-Utilizei chaves e titulos diferentes todos com relação ao Tema do Portifólio
+Utilizei chaves e titulos diferentes todos com relação ao Tema do meu Portifólio
 
 #sobre os artigos
 Minerador.py e Minerador1.py ambos são complementos do meu Portifólio
